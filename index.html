@@ -1,213 +1,1013 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vignesh Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>[Your Name]</h1>
-        <p>Data Analyst | Excel | SQL | Power BI | Python</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vignesh | Data Analyst Portfolio</title>
+    <meta
+      name="description"
+      content="Professional portfolio of Vignesh, a Data Analyst with expertise in Excel, SQL, Power BI, and Python."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container header-container">
+        <a href="#" class="logo">VIGNESH</a>
+        <nav id="nav">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </nav>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </header>
 
-    <section class="intro">
-        <img src="./assets/profile_photo_5.jpg" alt="Profile Picture">
-        <div class="text">
-            <h2>Hello, I'm</h2>
-            <h1>VIGNESH</h1>
-            <h3>Data Analyst | Business Analyst</h3>
-            <a href="./assets/Vignesh.pdf" target="_blank" class="button" download>Download CV</a>
-            <div class="social-links">
-                <a href=https://www.linkedin.com/in/vignesh-paramasivam-7356a013a/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/VigneshHere" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
+    <section class="hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h2>Hello, I'm</h2>
+          <h1>VIGNESH</h1>
+          <h3>Data Analyst | Business Intelligence Developer</h3>
+          <p>
+            Transforming data into actionable insights to drive business
+            decisions and growth.
+          </p>
+          <div class="button-group">
+            <a
+              href="./assets/Vignesh.pdf"
+              target="_blank"
+              class="button"
+              download
+            >
+              <i class="fas fa-download"></i> Download CV
+            </a>
+            <a href="#contact" class="button button-outline">
+              <i class="fas fa-paper-plane"></i> Contact Me
+            </a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/vignesh-p-7356a013a/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/VigneshHere"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:vigneshparamasivam89@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
+        <div class="hero-image">
+          <img
+            src="./assets/profile_photo_5.jpg"
+            alt="Vignesh Paramasivam - Data Analyst"
+          />
+        </div>
+      </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate Data Analyst who loves turning raw data into meaningful insights. Skilled in Excel, SQL, Python, Power BI, and Tableau, I enjoy solving real-world problems through data.</p>
-
-           <p>Prior to my journey into data analytics, I worked for 8 years as a UI Developer, specializing in HTML, CSS, JavaScript, WordPress, and AngularJS. This strong foundation in web development enhances my ability to build visually compelling dashboards, create user-friendly data solutions, and communicate insights effectively.</p>
+    <section id="about" class="section-alt">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p class="mb-4">
+              I am a passionate Data Analyst who loves turning raw data into
+              meaningful insights. With expertise in Excel, SQL, Python, Power
+              BI, and Tableau, I specialize in solving real-world business
+              problems through data-driven approaches.
+            </p>
+            <p class="mb-4">
+              My analytical mindset combined with strong technical skills allows
+              me to extract valuable insights from complex datasets, create
+              compelling visualizations, and communicate findings effectively to
+              stakeholders.
+            </p>
+            <p>
+              Prior to transitioning into data analytics, I spent 8 years as a
+              UI Developer, specializing in HTML, CSS, Bootstrap, JavaScript, WordPress,
+              and AngularJS. This background gives me a unique perspective on
+              creating user-friendly data solutions and visually compelling
+              dashboards.
+            </p>
+          </div>
+          <div>
+            <div class="card">
+              <h3>What I Do</h3>
+              <ul class="list-disc pl-5 space-y-2">
+                <li>Data cleaning and preprocessing</li>
+                <li>Exploratory data analysis</li>
+                <li>Dashboard and report development</li>
+                <li>Data visualization and storytelling</li>
+                <li>Business intelligence solutions</li>
+                <li>SQL query optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
+      <div class="container">
+        <h2 class="section-heading">Technical Skills</h2>
         <div class="skills-container">
-            <div class="card">
-                <h3>Data Analysis Tools</h3>
-                <ul>
-                    <li><i class="fas fa-table"></i> Excel (Pivot Tables, Advanced Functions, Power Query)</li>
-                    <li><i class="fas fa-database"></i> SQL (MySQL, PostgreSQL)</li>
-                    <li><i class="fas fa-cogs"></i> Power BI (Dashboard Development)</li>
-                    <li><i class="fas fa-laptop-code"></i> Python (pandas, matplotlib)</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Data Visualization</h3>
-                <ul>
-                    <li><i class="fas fa-chart-line"></i> Tableau (Data Visualization & Dashboards)</li>
-                    <li><i class="fas fa-chart-bar"></i> Power BI (Interactive Dashboards)</li>
-                    <li><i class="fas fa-clipboard-list"></i> Excel (Charts & Visualizations)</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li><i class="fas fa-code"></i> Python (Data Analysis & Visualization)</li>
-                    <li><i class="fas fa-code-branch"></i> SQL (Database Queries)</li>
-                    <li><i class="fas fa-terminal"></i> R (Basic Statistical Analysis)</li>
-                </ul>
-            </div>
+          <div class="card">
+            <h3>Data Analysis</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center">
+                <i class="fas fa-table mr-2 text-primary"></i> Excel (Pivot
+                Tables, Power Query, VBA)
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-database mr-2 text-primary"></i> SQL (MySQL,
+                PostgreSQL, T-SQL)
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-cogs mr-2 text-primary"></i> Power BI (DAX,
+                Power Query)
+              </li>
+              <li class="flex items-center">
+                <i class="fab fa-python mr-2 text-primary"></i> Python (pandas,
+                NumPy, matplotlib)
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Data Visualization</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center">
+                <i class="fas fa-chart-line mr-2 text-primary"></i> Tableau
+                (Dashboards, Stories)
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-chart-pie mr-2 text-primary"></i> Power BI
+                (Interactive Reports)
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-chart-bar mr-2 text-primary"></i>
+                Matplotlib/Seaborn
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Web Development</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center">
+                <i class="fab fa-html5 mr-2 text-primary"></i> HTML5 & CSS3
+              </li>
+              <li class="flex items-center">
+                <i class="fab fa-bootstrap mr-2 text-primary"></i> Bootstrap
+              </li>
+              <li class="flex items-center">
+                <i class="fab fa-js mr-2 text-primary"></i> JavaScript & jQuery
+              </li>
+              <li class="flex items-center">
+                <i class="fab fa-wordpress mr-2 text-primary"></i> WordPress
+                Development
+              </li>
+              <li class="flex items-center">
+                <i class="fab fa-angular mr-2 text-primary"></i> AngularJS
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="experience">
-    <h2>Experience</h2>
-    <div class="card-container">
-        <div class="card">
-            <h3>Junior Data Analyst</h3>
-            <p>Jan 2025 - Present</p>
-            <div class="card-content">
-                <ul>
-                    <li><b>Data Cleaning and Preprocessing:</b> Experienced in cleaning and transforming raw data using Excel and Python (Pandas), ensuring data accuracy and consistency for analysis.</li>
-                    <li><b>Data Analysis:</b> Proficient in conducting basic statistical analysis, identifying trends, and extracting key insights from structured and unstructured data.</li>
-                    <li><b>Data Visualization:</b> Skilled in creating intuitive and interactive dashboards and reports using Power BI and Tableau, helping stakeholders make informed decisions.</li>
-                    <li><b>Excel:</b> Strong Excel skills, including pivot tables, VLOOKUP, data filtering, and conditional formatting to analyze data and produce meaningful reports.</li>
-                    <li><b>SQL:</b> Basic knowledge of SQL for querying and extracting data from relational databases.</li>
-                    <li><b>Report Generation:</b> Assisted in creating monthly and quarterly reports to track business performance and KPIs.</li>
+    <section id="experience" class="section-alt">
+      <div class="container">
+        <h2 class="section-heading">Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <div class="card-header">
+                <h3>Junior Data Analyst</h3>
+                <span class="card-date">Jan 2025 - Present</span>
+              </div>
+              <div class="card-content">
+                <ul class="list-disc pl-5 space-y-2">
+                  <li>
+                    <strong>Data Cleaning and Preprocessing:</strong> Clean and
+                    transform raw data using Excel and Python (Pandas), ensuring
+                    data accuracy and consistency for analysis.
+                  </li>
+                  <li>
+                    <strong>Data Analysis:</strong> Conduct basic statistical
+                    analysis, identify trends, and extract key insights from
+                    structured and unstructured data.
+                  </li>
+                  <li>
+                    <strong>Data Visualization:</strong> Create intuitive and
+                    interactive dashboards and reports using Power BI and
+                    Tableau to support decision-making.
+                  </li>
+                  <li>
+                    <strong>Excel:</strong> Utilize pivot tables, VLOOKUP, data
+                    filtering, and conditional formatting to analyze data and
+                    produce meaningful reports.
+                  </li>
+                  <li>
+                    <strong>SQL:</strong> Write and optimize SQL queries for
+                    data extraction from relational databases.
+                  </li>
                 </ul>
+              </div>
             </div>
-        </div>
-        <div class="card">
-            <h3>Sr.UI Developer</h3>
-            <p>Jan 2015 - Oct 2021</p>
-            <div class="card-content">
-                <ul>
-                    <li><b>Custom Dashboard Development:</b> Designed and developed interactive web dashboards for clients, showcasing real-time data visualizations and KPIs, using JavaScript, CSS, and WordPress integrations.</li>
-                    <li><b>Client-Facing Applications:</b> Collaborated with stakeholders to define UI requirements, translating them into responsive web pages using HTML, CSS, and JavaScript, ensuring the final product exceeded user expectations.</li>
-                    <li><b>WordPress Theme Development:</b> Led the creation of custom WordPress themes for various clients, optimizing site performance, ensuring mobile responsiveness, and improving user experience through seamless navigation and layout.</li>
-                    <li><b>Branding and Redesign:</b> Executed complete UI/UX redesigns, enhancing visual aesthetics, functionality, and performance, incorporating responsive design and engaging user interfaces using Photoshop and SASS.</li>
-                    <li><b>Cross-Team Collaboration:</b> Worked closely with design and development teams to refine project requirements, propose design solutions, and ensure the implementation of intuitive interfaces that matched the client’s brand vision.</li>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <div class="card-header">
+                <h3>Senior UI Developer</h3>
+                <span class="card-date">Jan 2015 - Oct 2021</span>
+              </div>
+              <div class="card-content">
+                <ul class="list-disc pl-5 space-y-2">
+                  <li>
+                    <strong>Custom Dashboard Development:</strong> Designed and
+                    developed interactive web dashboards showcasing real-time
+                    data visualizations and KPIs.
+                  </li>
+                  <li>
+                    <strong>Client-Facing Applications:</strong> Collaborated
+                    with stakeholders to define UI requirements and translate
+                    them into responsive web pages.
+                  </li>
+                  <li>
+                    <strong>WordPress Theme Development:</strong> Led creation
+                    of custom WordPress themes, optimizing performance and
+                    mobile responsiveness.
+                  </li>
+                  <li>
+                    <strong>Branding and Redesign:</strong> Executed complete
+                    UI/UX redesigns, enhancing visual aesthetics and
+                    functionality.
+                  </li>
+                  <li>
+                    <strong>Cross-Team Collaboration:</strong> Worked closely
+                    with design and development teams to refine requirements and
+                    implement solutions.
+                  </li>
                 </ul>
+              </div>
             </div>
-        </div>
-        <div class="card">
-            <h3>Web Developer Junior Level</h3>
-            <p>Jun 2012 - Dec 2014</p>
-            <div class="card-content">
-                <ul>
-                    <li><b>Collaborated</b> on creating responsive web pages using HTML, CSS, and JavaScript.</li>
-                    <li><b>Worked</b> on styling and layout adjustments to ensure seamless user experiences across devices.</li>
-                    <li><b>Assisted</b> in customizing WordPress themes and creating user-friendly web interfaces.</li>
-                    <li><b>Supported</b> UI testing and debugging to improve website functionality and performance.</li>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <div class="card-header">
+                <h3>Junior Web Developer</h3>
+                <span class="card-date">Jun 2012 - Dec 2014</span>
+              </div>
+              <div class="card-content">
+                <ul class="list-disc pl-5 space-y-2">
+                  <li>
+                    Collaborated on creating responsive web pages using HTML,
+                    CSS, and JavaScript.
+                  </li>
+                  <li>
+                    Worked on styling and layout adjustments to ensure seamless
+                    user experiences.
+                  </li>
+                  <li>
+                    Assisted in customizing WordPress themes and creating
+                    user-friendly interfaces.
+                  </li>
+                  <li>
+                    Supported UI testing and debugging to improve website
+                    functionality.
+                  </li>
                 </ul>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
     <section id="education">
-        <h2>Education</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>Bachelor of Engineering in Electrical and Electronics Engineering</h3>
-                <p>Anna University, Chennai - 2008 - 2012</p>
-            </div>
-            <div class="card">
-                <h3>Certifications</h3>
-                <ul>
-                    <li>Google Data Analytics Professional Certificate</li>
-                    <li>Introduction to SQL - Coursera</li>
-                    <li>Excel for Business - LinkedIn Learning</li>
-                </ul>
-            </div>
+      <div class="container">
+        <h2 class="section-heading">Education & Certifications</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="card">
+            <h3>Bachelor of Engineering</h3>
+            <p class="text-dark-gray mb-2">
+              Electrical and Electronics Engineering
+            </p>
+            <p class="text-dark-gray">Anna University, Chennai • 2008 - 2012</p>
+          </div>
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center">
+                <i class="fas fa-certificate mr-2 text-accent"></i> Excel Essential Training (Microsoft 365) - LinkedIn Learning
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-certificate mr-2 text-accent"></i>  Business Analysis Foundations: Business Process Modeling- LinkedIn Learning
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-certificate mr-2 text-accent"></i>  Data Visualization in Python with Dash- LinkedIn Learning
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-certificate mr-2 text-accent"></i>  Learning Power BI Desktop- LinkedIn Learning
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
+    <!-- In your Projects section -->
+    <section id="projects" class="section-alt">
+      <div class="container">
+        <h2 class="section-heading">Featured Projects</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="html">HTML/CSS</button>
+            <button class="filter-btn" data-filter="wordpress">WordPress</button>
+            <button class="filter-btn" data-filter="psd">PSD</button>
+            <button class="filter-btn" data-filter="data">Data Analysis</button>
+        </div>
         <div class="projects-container">
-            <div class="card">
-                <img src="https://i.ytimg.com/vi/bjLIA1vSqGs/maxresdefault.jpg" alt="Project Image" class="project-image">
-                <h3>Sales Dashboard in Excel</h3>
-                <p>Built a dynamic dashboard to visualize sales data using Excel and Power Query. The dashboard automates the monthly reporting process, saving time and reducing errors.</p>
-                <div class="platforms">Platform Used: <span>Excel, Power Query</span></div>
-                <a href="#" class="button">View Project</a>
+          <!-- Wordpress -->
+          <div class="card project-card" data-category="wordpress">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/iskontemple.gif', 'ISKCON Bangalore UI Demo')"
+            >
+              <img
+                src="assets/iskontemple.gif"
+                alt="ISKCON Bangalore UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
             </div>
-
-            <div class="card">
-                <img src="https://365datascience.com/resources/blog/2ihcygmyrnq-customer-churn-screenshot4.png" alt="Project Image" class="project-image">
-                <h3>Customer Churn Prediction with Python</h3>
-                <p>Applied machine learning techniques to predict customer churn for a telecom company using Python. The model helped to identify at-risk customers and target them with retention strategies.</p>
-                <div class="platforms">Platform Used: <span>Python, scikit-learn</span></div>
-                <a href="#" class="button">View Project</a>
+            <h3>ISKCON Bangalore UI</h3>
+            <p>
+              As a front-end developer at Mindbells Technologies, I contributed to the development of the ISKCON Bangalore website, focusing on creating a responsive and user-friendly interface that effectively showcases the temple's spiritual offerings, events, and services. Collaborating closely with the design and back-end teams, I ensured seamless integration of multimedia content, including live darshan and lecture feeds, enhancing the online experience for devotees and visitors. This project aimed to provide a comprehensive digital presence for ISKCON Bangalore, facilitating global access to its spiritual resources and community activities.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">WordPress CMS</span>
             </div>
-
-            <div class="card">
-                <img src="https://i0.wp.com/spd.tech/wp-content/uploads/2024/11/The-Benefits-of-e-Commerce-Analytics.webp?resize=1024%2C550&ssl=1" alt="Project Image" class="project-image">
-                <h3>E-commerce Data Analysis using SQL</h3>
-                <p>Analyzed e-commerce sales data to extract trends and business insights using SQL and Tableau. Identified key performance metrics and visualized data to support decision-making.</p>
-                <div class="platforms">Platform Used: <span>SQL, Tableau</span></div>
-                <a href="#" class="button">View Project</a>
+            <a
+              href="https://www.iskconbangalore.org"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="wordpress">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/rsramproperties.gif', 'RSRAM Properties UI Demo')"
+            >
+              <img
+                src="assets/rsramproperties.gif"
+                alt="RSRAM Properties UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
             </div>
-
-            <div class="card">
-                <img src="https://media.licdn.com/dms/image/v2/D5612AQFfZ6q3L-XFEw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1713515539069?e=2147483647&v=beta&t=5TvF9lBaGGpg-1P0TwrkadAInMkebXLVYwfJYUiCuKU" alt="Project Image" class="project-image">
-                <h3>Superstore Sales Analysis</h3>
-                <p>Analyzed Superstore dataset to identify trends and opportunities, built interactive dashboards using Tableau. The dashboard includes various visualizations to help stakeholders make data-driven decisions.</p>
-                <div class="platforms">Platform Used: <span>Tableau</span></div>
-                <a href="#" class="button">View Project</a>
+            <h3>RSRAM Properties UI</h3>
+            <p>
+             As a front-end developer at Mindbells Technologies, I contributed to the integration of the R.S. Ram Properties website with WordPress, enabling the client to efficiently manage and update content related to their real estate projects. This integration facilitated a user-friendly content management experience, aligning with the company's commitment to providing quality residential and commercial properties. The project aimed to enhance the website's functionality and streamline content updates, reflecting R.S. Ram Properties' dedication to excellence in the real estate industry.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">WordPress CMS</span>
             </div>
-
-            <div class="card">
-                <img src="https://media.licdn.com/dms/image/v2/D5612AQHSOLZTaGpdtA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1721390299249?e=2147483647&v=beta&t=HUdNwvJRwZXpVBgylCLmq6TLYKOjK0tk4tlazMYqpjc" alt="Project Image" class="project-image">
-                <h3>HR Analytics Dashboard</h3>
-                <p>Created a Power BI dashboard to monitor key HR metrics like attrition, employee satisfaction, and recruitment trends. This dashboard allows HR managers to track employee performance and retention.</p>
-                <div class="platforms">Platform Used: <span>Power BI</span></div>
-                <a href="#" class="button">View Project</a>
+            <a
+              href="https://rsramproperties.in/index.php"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="wordpress">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/nysais.gif', 'NYSAIS UI Demo')"
+            >
+              <img
+                src="assets/nysais.gif"
+                alt="NYSAIS UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
             </div>
-
-            <div class="card">
-                <img src="https://www.tableau.com/sites/default/files/2021-09/COVID_Starter.png" alt="Project Image" class="project-image">
-                <h3>COVID-19 Data Visualization</h3>
-                <p>Collected global COVID-19 data and built Python visualizations and Tableau dashboards to track the pandemic spread. The visualizations help public health organizations to understand the trends and make decisions accordingly.</p>
-                <div class="platforms">Platform Used: <span>Python, Tableau</span></div>
-                <a href="#" class="button">View Project</a>
+            <h3>NYSAIS UI</h3>
+            <p>
+              As a freelance developer for HubSpire, I integrated the New York State Association of Independent Schools (NYSAIS) website with a customized WordPress content management system. This integration enabled NYSAIS to efficiently manage and update content, including information about member schools, events, resources, and services, providing a seamless user experience for visitors.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">WordPress CMS</span>
             </div>
+            <a
+              href="https://www.nysais.org/"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <!-- HTML -->
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/3ukapp.gif', 'Three UK UI Demo')"
+            >
+              <img
+                src="assets/3ukapp.gif"
+                alt="Three UK UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Three UK UI</h3>
+            <p>
+              As the Senior Front-End Team Lead at Tech Mahindra Bangalore, I led the development and implementation of the Three UK website and mobile application, managing the offshore frontend team to deliver high-quality, responsive, and user-friendly interfaces. Collaborating closely with the onsite lead based in London and cross-functional teams, I ensured smooth coordination, adherence to project timelines, and integration of advanced front-end technologies. My leadership helped drive the successful launch and ongoing optimization of these digital products, significantly improving user engagement and customer satisfaction.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">AngularJS</span>
+            </div>
+            <a
+              href="https://www.three.co.uk/"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/sattvam.gif', 'Sattvam Restaurant UI Demo')"
+            >
+              <img
+                src="assets/sattvam.gif"
+                alt="Sattvam Restaurant UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Sattvam Restaurant UI</h3>
+            <p>
+              I contributed to the development of the Sattvam restaurant website during my tenure at Mindbells Technologies, marking my first experience with parallax web design in 2012. My responsibilities included implementing the initial parallax layout and designing key internal menu sections such as 'Location', 'Media', and the 'Food Items Gallery'. These sections were crafted to provide an engaging and intuitive user experience, effectively showcasing Sattvam's offerings. Although the website has since undergone significant changes, including a complete layout overhaul, the foundational work I completed laid the groundwork for the site's early visual and interactive elements.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Parallax</span>
+            </div>
+            <a
+              href="https://www.sattvam.com/"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/technomax.gif', 'Technomax UI Demo')"
+            >
+              <img
+                src="assets/technomax.gif"
+                alt="Technomax UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Technomax UI</h3>
+            <p>
+              I played a pivotal role in the front-end development of the Technomax Middle East Engineering LLC website during my tenure at Mindbells Technologies, contributing approximately 60% of the UI implementation. My responsibilities encompassed translating design concepts into responsive, interactive web pages that effectively showcase Technomax's industrial solutions, including crane installation and maintenance, condition monitoring, and engineering product distribution. I collaborated closely with the design and back-end teams to ensure seamless integration, optimized performance, and a user-friendly experience across devices, aligning the website with Technomax's brand identity and commitment to engineering excellence. This project aimed to enhance Technomax's online presence and provide clients with comprehensive information about their services and expertise in the industrial sector
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Parallax</span>
+            </div>
+            <a
+              href="https://www.technomaxme.com/"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/checkmatehealthcare.gif', 'Checkmate Health UI Demo')"
+            >
+              <img
+                src="assets/checkmatehealthcare.gif"
+                alt="Checkmate Health UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Checkmate Health UI</h3>
+            <p>
+              I contributed as a front-end developer to the Checkmate Health website while working at Mindbells Technologies, collaborating with the team to create a responsive and user-friendly interface that effectively presents Checkmate Health's concierge medical services. My responsibilities included implementing interactive components, ensuring cross-browser compatibility, and optimizing performance across devices, aligning the site's design with Checkmate Health's commitment to delivering personalized healthcare experiences.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://checkmate.health/"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/iis-it.gif', 'Innovative Intelligent Solutions UI Demo')"
+            >
+              <img
+                src="assets/iis-it.gif"
+                alt="Innovative Intelligent Solutions UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Innovative Intelligent Solutions UI</h3>
+            <p>
+              I contributed as a front-end developer to the IIS-IT corporate website while working at Mindbells Technologies, collaborating with the development team to design and implement a responsive, user-friendly interface that effectively showcases IIS-IT's IT services and staffing solutions. My responsibilities included translating design mockups into functional web pages using HTML, CSS, and JavaScript, ensuring cross-browser compatibility, and optimizing the site's performance across various devices. This project aimed to enhance user engagement and accurately represent IIS-IT's commitment to delivering innovative technology solutions.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://www.iis-it.com/index.html"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/advithri.gif', ' Advithri Technologies  UI Demo')"
+            >
+              <img
+                src="assets/advithri.gif"
+                alt=" Advithri Technologies  UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3> Advithri Technologies  UI</h3>
+            <p>
+              I worked as part of the front-end development team at Mindbells Technologies for the creation of the Advithri Technologies website, contributing to the design and implementation of a responsive, visually engaging interface that highlights Advithri’s IT consulting, staffing, and training services. My role involved collaborating closely with UI/UX designers and developers to ensure cross-browser compatibility, performance optimization, and a smooth user experience across all devices, aligning with the client’s brand and business goals.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://www.advithri.com/index.html"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/augusta.gif', 'Augusta Hitech UI Demo')"
+            >
+              <img
+                src="assets/augusta.gif"
+                alt="Augusta Hitech UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Augusta Hitech UI</h3>
+            <p>
+              I contributed as a Senior UI Developer to the Augusta Hitech corporate website, collaborating with a multidisciplinary team to design and implement a responsive, user-centric interface that effectively communicates the company's expertise in advanced technologies such as AI, blockchain, IoT, and cloud infrastructure. My responsibilities included translating complex technical offerings into intuitive visual elements, ensuring seamless navigation across various devices, and aligning the website's aesthetics with Augusta Hitech's brand identity. This project aimed to enhance user engagement and accurately represent the company's commitment to delivering innovative, end-to-end technology solutions across diverse industries.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://augustahitech.com/"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <div class="card project-card" data-category="html">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/anmeda.gif', 'Anmeda UI Demo')"
+            >
+              <img
+                src="assets/anmeda.gif"
+                alt="Anmeda UI"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Anmeda UI</h3>
+            <p>
+              I developed the Anmeda product webpage from scratch in 2013 for Anmeda Systems, designing and implementing a responsive, user-friendly interface to showcase their compliance solution for retrofitting legacy pharmaceutical equipment. The site was built using standard web technologies and focused on clearly presenting technical content related to 21 CFR Part 11 and EU Annex 11 compliance, third-party system integration, and centralized data control. My work involved close collaboration with domain experts to ensure accurate content representation, as well as performance and SEO optimization. Although the site has undergone some content and structural updates since its launch, the core framework and layout are still based on the original version I created.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a
+              href="https://www.anmedasystems.com/index.html"
+              target="_blank"
+              class="button"
+              >View Project</a
+            >
+          </div>
+          <!-- PSD -->
+          <div class="card project-card" data-category="psd">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/UI.gif', ' Modern Digital Agency Interface UX Design')"
+            >
+              <img
+                src="assets/UI.gif"
+                alt="Sample-Structure UX"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Modern Digital Agency Interface UX Design</h3>
+            <p>
+              Modern Digital Agency Interface, crafted in Photoshop, showcases a sleek digital agency interface featuring a bold 'MADE FOR YOU' header, minimalist service sections (Passion, Creativity, Quality), and portfolio highlights including Grand Hotel branding and startup projects. Designed with layered smart objects, precise vector shapes, and subtle layer effects for depth, the layout demonstrates professional aesthetic balance with clean typography, consistent spacing, and a modern monochrome color scheme with strategic accent colors." 
+            </p>
+            <div class="project-tags">
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+          <div class="card project-card" data-category="psd">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/wheat_capital.gif', 'Wheat Capital Management – Partial UI Completion')"
+            >
+              <img
+                src="assets/wheat_capital.gif"
+                alt="Wheat Capital UX"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Wheat Capital Management – Partial UI Completion</h3>
+            <p>
+              This project involved contributing to the completion of the homepage UI for Wheat Capital Management. The initial structure and design were partially done by a previous designer. I took over the remaining design work, ensuring consistency in layout, color scheme, and user interface elements. My work included refining the carousel section, enhancing visual hierarchy, and completing key components to deliver a cohesive, professional look.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+          <div class="card project-card" data-category="psd">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/Sattvam_Menu_FoodList.gif', 'Sattvam Restaurant – Menu Food List UX Design')"
+            >
+              <img
+                src="assets/Sattvam_Menu_FoodList.gif"
+                alt="Sattvam Menu Food List UX"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Sattvam Restaurant – Menu Food List UX Design</h3>
+            <p>
+              Designed the Media section of the Sattvam Restaurant website’s menu interface. Focused on crafting an engaging and user-friendly media layout to showcase food imagery and videos, ensuring it aligns with the brand’s aesthetic. The design emphasizes smooth visual flow and responsive layout planning, delivered as a high-fidelity prototype in Photoshop.
+            </br><b>Status: Completed (Food List Section Only)</b>
+            </p>
+            <div class="project-tags">
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+          <div class="card project-card" data-category="psd">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/Sattvam_Menu_Location.gif', 'Sattvam Restaurant – Menu Location UX Design')"
+            >
+              <img
+                src="assets/Sattvam_Menu_Location.gif"
+                alt="Sattvam Menu Location UX"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Sattvam Restaurant – Menu Location UX Design</h3>
+            <p>
+              Designed the Media section of the Sattvam Restaurant website’s menu interface. Focused on crafting an engaging and user-friendly media layout to showcase food imagery and videos, ensuring it aligns with the brand’s aesthetic. The design emphasizes smooth visual flow and responsive layout planning, delivered as a high-fidelity prototype in Photoshop.
+            </br><b>Status: Completed (Location Section Only)</b>
+            </p>
+            <div class="project-tags">
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+          <div class="card project-card" data-category="psd">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/Sattvam_Menu_Media.gif', 'Sattvam Restaurant – Menu Media UX Design')"
+            >
+              <img
+                src="assets/Sattvam_Menu_Media.gif"
+                alt="Sattvam Menu Media UX"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Sattvam Restaurant – Menu Media UX Design</h3>
+            <p>
+              Designed the Media section of the Sattvam Restaurant website’s menu interface. Focused on crafting an engaging and user-friendly media layout to showcase food imagery and videos, ensuring it aligns with the brand’s aesthetic. The design emphasizes smooth visual flow and responsive layout planning, delivered as a high-fidelity prototype in Photoshop.
+            </br><b>Status: Completed (Media Section Only)</b>
+            </p>
+            <div class="project-tags">
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+          <div class="card project-card" data-category="psd">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/Anmeda_PSD.gif', 'Anmeda UX Design – Industrial Automation Interface')"
+            >
+              <img
+                src="assets/Anmeda_PSD.gif"
+                alt="Anmeda UX"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Anmeda UX Design – Industrial Automation Interface</h3>
+            <p>
+              Designed a high-fidelity UX interface for Anmeda’s industrial automation system using Adobe Photoshop. The objective was to create a clean, intuitive dashboard layout displaying key performance indicators such as speed, temperature, oil pressure, and battery levels. Focused on real-time readability, modern industrial aesthetics, and operator usability. Delivered layered PSD files for developer handoff and prototyping
+            </p>
+            <div class="project-tags">
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+          <!-- Data Analysis -->
+           <div class="card project-card" data-category="data">
+            <div
+              class="gif-container"
+              onclick="openGifPopup('assets/data_analysis.png', 'Project In Progress')"
+            >
+              <img
+                src="assets/data_analysis.png"
+                alt="Project In Progress"
+                class="project-image"
+              />
+              <div class="gif-overlay">
+                <i class="fas fa-expand"></i> Click to view
+              </div>
+            </div>
+            <h3>Project In Progress</h3>
+            <p>
+              Developing an interactive sales dashboard using Excel and Power BI to visualize trends and performance. This project is currently under construction and will be updated shortly..
+            </p>
+            <div class="project-tags">
+              <span class="tag">Excel</span>
+              <span class="tag">PowerBI</span>
+              <span class="tag">Tableau</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Python</span>
+            </div>
+            <a
+              href="#"
+              target="_blank"
+              class="button"
+              >In Progress</a
+            >
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="contact" class="get-in-touch">
-        <h2>Get in Touch</h2>
-        <p>I'd love to hear from you! Feel free to reach out for collaboration or just to connect.</p>
-        <div class="contact-details">
-            <a href="mailto:vigneshparamasivam89@gmail.com"><i class="fas fa-envelope"></i> vigneshparamasivam89@gmail.com</a>
-            <a href=https://www.linkedin.com/in/vignesh-paramasivam-7356a013a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/VigneshHere" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <!-- GIF Popup Modal -->
+    <div id="gifPopup" class="gif-popup">
+      <span class="close-popup" onclick="closeGifPopup()">&times;</span>
+      <div class="popup-content">
+        <img id="popupGif" src="" alt="" />
+        <p id="popupCaption"></p>
+      </div>
+    </div>
+
+    <section id="contact" class="section-alt">
+      <div class="container">
+        <h2 class="section-heading">Get In Touch</h2>
+        <div class="text-center max-w-2xl mx-auto">
+          <p class="text-xl mb-8">
+            I'm currently open to new opportunities and collaborations. Feel
+            free to reach out through any of these channels:
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="contact-method card hover:shadow-lg transition-all">
+              <div class="text-primary text-3xl mb-4">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">Email Me</h3>
+              <a
+                href="mailto:vigneshparamasivam89@gmail.com"
+                class="text-primary hover:underline"
+              >
+                vigneshparamasivam89@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-method card hover:shadow-lg transition-all">
+              <div class="text-primary text-3xl mb-4">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">LinkedIn</h3>
+              <a
+                href="https://www.linkedin.com/in/vignesh-p-7356a013a/"
+                target="_blank"
+                class="text-primary hover:underline"
+              >
+                Connect on LinkedIn
+              </a>
+            </div>
+
+            <div class="contact-method card hover:shadow-lg transition-all">
+              <div class="text-primary text-3xl mb-4">
+                <i class="fab fa-github"></i>
+              </div>
+              <h3 class="text-lg font-semibold mb-2">GitHub</h3>
+              <a
+                href="https://github.com/VigneshHere"
+                target="_blank"
+                class="text-primary hover:underline"
+              >
+                View My Projects
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="availability-note bg-white p-6 rounded-lg shadow-sm max-w-md mx-auto"
+          >
+            <h3 class="font-semibold text-lg mb-2">Availability</h3>
+            <p class="text-gray-600 mb-4">
+              I typically respond within 24-48 hours. For urgent inquiries,
+              please mention "URGENT" in your email subject.
+            </p>
+
+            <div class="flex justify-center gap-4">
+              <a
+                href="./assets/Vignesh.pdf" target="_blank"
+                download
+                class="button flex items-center gap-2"
+              >
+                <i class="fas fa-download"></i>
+                Download CV
+              </a>
+              <a
+                href="mailto:vigneshparamasivam89@gmail.com"
+                class="button button-outline flex items-center gap-2"
+              >
+                <i class="fas fa-paper-plane"></i>
+                Email Now
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="cv-download">
-            <a href="./assets/Vignesh.pdf" target="_blank" download><i class="fas fa-download"></i>Download CV</a>
-        </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 vignesh. All Rights Reserved.</p>
+      <div class="container footer-content">
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links mt-4">
+          <a
+            href="https://www.linkedin.com/in/vignesh-p-7356a013a/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/VigneshHere"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:vigneshparamasivam89@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p class="copyright mt-4">
+          &copy; <span id="year"></span> Vignesh. All rights
+          reserved.
+        </p>
+      </div>
     </footer>
-    <button id="scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
-    </body>
+
+    <button id="scrollToTopBtn" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close-lightbox">&times;</span>
+      <img id="lightbox-img" class="lightbox-img" src="" alt="" />
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
