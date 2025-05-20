@@ -42,7 +42,7 @@ function getYouTubeEmbedUrl(url) {
     return videoId ? `https://www.youtube.com/embed/${videoId}` : '';
 }
 
-// Video Popup functionality
+// Video Popup functionality with improved spinner
 function openVideoPopup(videoUrl, caption = '') {
     const embedUrl = getYouTubeEmbedUrl(videoUrl);
     if (!embedUrl) {
@@ -50,27 +50,56 @@ function openVideoPopup(videoUrl, caption = '') {
         return;
     }
 
+    // Create spinner container
+    const spinnerContainer = document.createElement('div');
+    spinnerContainer.className = 'spinner-container';
+    spinnerContainer.innerHTML = '<div class="spinner"></div>';
+    
+    // Create popup container
     const popup = document.createElement('div');
     popup.className = 'video-popup';
     popup.style.display = 'flex';
+    popup.appendChild(spinnerContainer);
 
-    popup.innerHTML = `
-        <span class="close-video-popup" onclick="closeVideoPopup()">&times;</span>
-        <div class="video-popup-content">
-            <div class="spinner" id="videoSpinner"></div>
-<iframe class="video-popup-iframe"
-        src="${embedUrl}?autoplay=1&mute=1&loop=1&playlist=${embedUrl.split('/').pop()}"
-        onload="document.getElementById('videoSpinner').style.display='none';"
-        ...
-></iframe>
+    // Create iframe (hidden initially)
+    const iframe = document.createElement('iframe');
+    iframe.className = 'video-popup-iframe';
+    iframe.style.display = 'none';
+    iframe.src = `${embedUrl}?autoplay=1&mute=1`;
+    
+    // When iframe loads, hide spinner and show iframe
+    iframe.onload = function() {
+        spinnerContainer.style.display = 'none';
+        iframe.style.display = 'block';
+    };
 
-            ${caption ? `<p class="video-popup-caption">${caption}</p>` : ''}
-        </div>
-    `;
+    // Create popup content container
+    const popupContent = document.createElement('div');
+    popupContent.className = 'video-popup-content';
+    popupContent.appendChild(iframe);
+    
+    if (caption) {
+        const captionElement = document.createElement('p');
+        captionElement.className = 'video-popup-caption';
+        captionElement.textContent = caption;
+        popupContent.appendChild(captionElement);
+    }
 
+    // Create close button
+    const closeBtn = document.createElement('span');
+    closeBtn.className = 'close-video-popup';
+    closeBtn.innerHTML = '&times;';
+    closeBtn.onclick = closeVideoPopup;
+
+    // Assemble popup
+    popup.appendChild(closeBtn);
+    popup.appendChild(popupContent);
+
+    // Add to DOM
     document.body.appendChild(popup);
     document.body.style.overflow = 'hidden';
 
+    // Close when clicking outside content
     popup.addEventListener('click', function (e) {
         if (e.target === popup) {
             closeVideoPopup();
