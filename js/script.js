@@ -161,9 +161,10 @@ if (hamburger && nav) {
 }
 
 // spinner animation hidden
-document.addEventListener('load', () => {
+window.addEventListener('load', () => {
     const gifPopup = document.getElementById('gifPopup');
     if (gifPopup) {
-        gifPopup.style.display = 'none'; // Hide the spinner on load
+        gifPopup.style.display = 'none'; // Hide spinner after everything is loaded
     }
 });
+
