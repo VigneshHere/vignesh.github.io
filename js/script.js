@@ -159,3 +159,11 @@ if (hamburger && nav) {
         });
     });
 }
+
+// spinner animation hidden
+document.addEventListener('DOMContentLoaded', () => {
+    const gifPopup = document.getElementById('gifPopup');
+    if (gifPopup) {
+        gifPopup.style.display = 'none'; // Hide the spinner on load
+    }
+});
