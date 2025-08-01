@@ -362,6 +362,10 @@ nav a.active {
   margin-top: 2rem;
 }
 
+.skills-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
